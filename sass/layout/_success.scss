@@ -1,0 +1,46 @@
+@use "../abstract/mixins" as mix;
+/* success */
+.success {
+  &-head {
+    .flex {
+      position: relative;
+      overflow: hidden;
+      @include mix.size(245px, 150px);
+      border-radius: 30px;
+      img {
+        @include mix.size(100px, 150px);
+        background-size: contain;
+        position: absolute;
+        left: 150px;
+      }
+      p {
+        margin-left: 20px;
+      }
+    }
+  }
+  &-body {
+    margin-top: 1rem;
+    border-radius: 40px;
+    @include mix.media-xl {
+      border-radius: 100px;
+    }
+    .pagination {
+      gap: 1rem;
+      .page-item {
+        padding: 1rem;
+        .page-link {
+          color: #4b5258;
+        }
+      }
+      .actives {
+        padding: 1rem !important;
+        border-radius: 100px;
+        background-color: #43AAFF;
+        .page-link {
+          background-color: transparent;
+          color: white;
+        }
+      }
+    }
+  }
+}

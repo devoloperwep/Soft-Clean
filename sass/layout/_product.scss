@@ -1,0 +1,139 @@
+@use "../abstract/mixins" as mix;
+/*! product */
+.product {
+  background-color: #f2f9ff;
+  padding: 2rem;
+  .row {
+    .column {
+      padding: {
+        top: 11rem;
+        left: 1.5rem;
+      }
+      @include mix.size(330px, 400px);
+      overflow: hidden;
+      position: relative;
+      border-radius: 30px;
+      .col-images {
+        position: absolute;
+        top: 0;
+        left: 0;
+        &__one {
+          position: relative;
+          z-index: 1;
+        }
+        &__two,
+        &__three {
+          position: absolute;
+          top: 30px;
+        }
+        &__two {
+          @include mix.size(300px, 200px);
+          left: 100px;
+          top: 0px;
+        }
+        &__three {
+          top: -80px;
+          left: 200px;
+        }
+        &__komet {
+          position: relative;
+          bottom: 200px;
+          left: 210px;
+        }
+        &__supurgi {
+          position: absolute;
+          top: -10px;
+        }
+        &__axlat {
+          position: absolute;
+          top: 70px;
+          left: 100px;
+        }
+        &__check {
+          position: relative;
+          z-index: 1;
+        }
+        &__list {
+          position: relative;
+          right: 80px;
+          top: -20px;
+        }
+        &__butulka1 {
+          position: relative;
+          z-index: 2;
+        }
+        &__butulka2 {
+          position: relative;
+          left: -30px;
+          z-index: 1;
+        }
+        &__butulka3 {
+          position: relative;
+          bottom: 150px;
+          left: 90px;
+          transform: translate(160deg);
+          @include mix.size(200px, 150px);
+          opacity: .5;
+        }
+        &__wit {
+          position: relative;
+          top: 20px;
+          left: 80px;
+        }
+      }
+      &-one {
+        padding-top: 2rem;
+        border-radius: 30px;
+        overflow: hidden;
+        @include mix.media-md {
+          @include mix.size(685px, 200px);
+        }
+        .col-images {
+          position: relative;
+          &__vnimania {
+            position: relative;
+            top: -35px;
+            left: 100px;
+          }
+          &__time {
+            position: relative;
+            top: -60px;
+          }
+          &__check {
+            position: relative;
+            left: 100px;
+          }
+          &__list {
+            position: relative;
+            @include mix.size(170px, 160px);
+          }
+        }
+      }
+      &-two {
+        padding-top: 2rem;
+        @include mix.size(330px, 200px);
+        border-radius: 30px;
+      }
+    }
+  }
+  &-head__free {
+    position: relative;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    border-radius: 30px;
+    .free-index {
+      position: relative;
+      z-index: 1;
+    }
+    .free-button {
+      padding: 1rem 5rem;
+      background-color: #FFC24D;
+      color: white;
+    }
+    .devoshka-img {
+      position: absolute;
+      right: 100px;
+      bottom: 0;
+    }
+  }
+}

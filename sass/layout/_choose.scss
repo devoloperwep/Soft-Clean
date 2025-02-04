@@ -1,0 +1,10 @@
+@use "../abstract/mixins" as mix;
+
+/* choose */
+.choose {
+  &-clean {
+    @include mix.size(329px, 125px);
+  }
+}
+
+

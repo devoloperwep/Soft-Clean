@@ -1,0 +1,55 @@
+@use "./typegraphy";
+@use "../abstract/mixins" as mix;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kodchasan', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1045px;
+    }
+}
+.point {
+  width: 10px;
+  height: 10px;
+  background-color: #20FF87;
+  border-radius: 50%;
+  display: inline-block;
+}
+.horizontal {
+  margin: 0 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 2px;
+  background-color: #20FF87;
+}
+.dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #4B5258;
+  vertical-align: middle;
+}
+.text-border {
+  border-bottom: 1px solid #fff;
+}
+.logo-size {
+  @include mix.size(50px, 30px);
+  background-color: white;
+}

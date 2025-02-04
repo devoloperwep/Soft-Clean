@@ -1,0 +1,16 @@
+/*! header */
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.header {
+  &_login {
+    border: 1px solid #43AAFF;
+    border-radius: 100px;
+  }   
+}

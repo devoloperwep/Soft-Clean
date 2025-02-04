@@ -1,0 +1,17 @@
+/*! clean */
+.clean {
+  background: url("../image/Девушка 2.png") no-repeat right;
+  height: 700px;
+
+  &-right {
+    padding: 1rem 3rem;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    .circle {
+      position: absolute;
+      bottom: 70px;
+      right: 45%;
+    }
+  }
+}

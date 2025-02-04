@@ -1,0 +1,74 @@
+@use "../abstract/mixins" as mix;
+/*! count */
+.count {
+  &-body {
+    padding: 1rem;
+    border-radius: 30px;
+    background: url("../image/telefon.png") no-repeat right;
+    background-size: contain;
+    height: auto;
+    @include mix.media-md {
+      padding: 4rem;
+    }
+    &__img {
+      padding: 1rem 4rem;
+      margin-top: 0.5rem;
+      border-radius: 10px;
+      background-color: #fff;
+      @include mix.media-sm {
+        padding: 1rem 6rem;
+        border-radius: 15px;
+      }
+    }
+    &__input {
+      padding: 1rem 1rem;
+      margin-top: 0.5rem;
+      border-radius: 100px;
+      @include mix.media-sm {
+        padding: 1.3rem 3rem;
+        margin-top: 0.5rem;
+        border-radius: 100px;
+      }
+    }
+    &__button {
+      padding: 1rem 3.5rem;
+      border-radius: 40px;
+      border: none;
+      margin-top: 0.5rem;
+      @include mix.media-md {
+        padding: 1.3rem 8rem;
+        border-radius: 100px;
+      }
+    }
+    .checked {
+      background-color: crimson;
+      border: none;
+    }
+    &__position {
+      @include mix.size(300px, 100px);
+      @include mix.media-md {
+        width: 410px;
+        height: 125px;
+      }
+      background-color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      overflow: hidden;
+      position: relative;
+      top: 50px;
+      .parent-position {
+        position: absolute;
+        right: -15px;
+        .img-one {
+          position: relative;
+          right: -20px;
+          top: -10px;
+        }
+        .img-two {
+          position: relative;
+          top: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+/* mixins */
+// size
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+// colors
+@mixin colors($color, $bg-color) {
+  color: $color;
+  background-color: $bg-color;
+}
+
+// media
+@mixin media-sm {
+  @media screen and (min-width: 576px) {
+    @content;
+  }
+}
+@mixin media-md {
+  @media screen and (min-width: 776px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin media-xxl {
+  @media screen and (min-width: 1400px) {
+    @content;
+  }
+}

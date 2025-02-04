@@ -1,13 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Soft Clean</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Soft Clean</title>
 </head>
+
 <body>
-    
+  <!-- header -->
+  <header class="header mt-3">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo d-flex align-items-center gap-2">
+        <img src="./image/Лого.svg" alt="this site img" />
+        <div>
+          <h6 class="m-0 color-blue">Soft Clean</h3>
+            <p class="m-0 fs-10 color-light-second">Бережная уборка <br> помещений СПБ</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center gap-5">
+        <div class="text-center d-none d-md-block">
+          <h5>8-800-700-60-50</h5>
+          <p class="color-light-second"><span class="point"></span> Пн-Вс: 9:00 - 21:00</p>
+        </div>
+        <div class="d-none text-end gap-3 d-lg-flex">
+          <p class="color-second fs-12 m-0">Быстрая связь с нами <br>
+            в мессенджерах:</p>
+          <div class="d-flex align-items-center gap-3">
+            <img src="./image/telegram.png" alt="this logo">
+            <img src="./image/watstup.png" alt="this telegram">
+          </div>
+        </div>
+        <button class="p-3 px-sm-4 py-sm-3 bg-transparent header_login">
+          <a href="#">Заказать консультацию</a>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+  <!-- clean -->
+  <main class="clean d-flex">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="clean-left color-second">
+        <h1 class="fs-3"><b>Бережная уборка квартир и домов <br>
+            в СПБ</b> по фиксированной стоимости <br>
+          от 80₽/м² <span class="horizontal"></span><span class="fs-18  align-middle">с гарантий качества по
+            договору</span></h1>
+        <p class="my-5">Выберите вид уборки, получите точный расчёт <br>стоимости и скидку 10% на первый заказ</p>
+        <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+          <a href="#" class="button-blue">Рассчитать стоимость</a>
+          <a href="#" class="button-second">Выбрать вид уборки</a>
+        </div>
+      </div>
+      <div class="clean-right d-none d-md-block">
+        <div class="circle"></div>
+        <p class="color-second m-0">Убрано <span class="color-blue">более <br> 535</span> объектов</p>
+      </div>
+    </div>
+  </main>
+  <!-- /clean -->
+  <!-- success -->
+  <section class="success">
+    <div class="container">
+      <div class="success-head">
+        <div class="d-flex gap-2 justify-content-center flex-wrap">
+          <div class="flex d-flex align-items-center bg-blue">
+            <p class="text-light fw-bold">Немецкое <br>
+              и Американское <br>
+              оборудование</p>
+            <img src="./image/chang.png" alt="this plesos img">
+          </div>
+          <div class="flex d-flex align-items-center bg-second">
+            <p class="text-light fw-bold">
+              Гипоаллергенные <br>
+              безопасные <br>
+              моющие <br>
+            </p>
+            <img src="./image/sepadigan.png" alt="this plesos img">
+          </div>
+          <div class="flex d-flex align-items-center bg-blue">
+            <p class="text-light fw-bold">
+              Соблюдаем <br>
+              санитарные <br>
+              нормы
+            </p>
+            <img src="./image/Перчатки 1.png" alt="this plesos img">
+          </div>
+          <div class="flex d-flex align-items-center bg-blue">
+            <p class="text-light fw-bold">
+              Оплата <br>
+              по результату <br>
+              после уборки
+            </p>
+            <img src="./image/Check 1 1.png" alt="this plesos img">
+          </div>
+        </div>
+      </div>
+      <div class="success-body shadow-lg">
+        <nav aria-label="..." class="w-100 success-body__nan d-flex justify-content-evenly align-items-center p-0">
+          <ul class="pagination m-0 p-0 flex-wrap">
+            <li class="page-item">
+              <a class="page-link border-0" href="#">Услуги</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link border-0" href="#">Рассчитать стоимость</a>
+            </li>
+            <li class="page-item actives" aria-current="page">
+              <a class="page-link border-0" href="#">Почему мы</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link border-0" href="#">Как мы делаем уборку</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link border-0" href="#">Отзывы</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link border-0" href="#">Акции</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- /success -->
+  <!-- count -->
+  <section class="count mt-5">
+    <div class="container">
+      <div class="count-title text-center">
+        <h1 class="color-second fs-2"><b>Калькулятор стоимости уборки</b> с точностью до 98%</h1>
+        <p class="color-light-second fs-5">Это бесплатно и ни к чему не обязывает!</p>
+      </div>
+      <div class="count-body d-flex flex-column flex-lg-row align-items-end justify-content-between bg-warning">
+        <div class="count-body__about text-center text-white  ">
+          <h3 class="fs-4">Отлично! Ваши ответы получены, <br>
+            менеджер уже приступает к расчёту</h3>
+          <p>Где вам удобнее получить расчёт?</p>
+          <div class="d-flex gap-2">
+            <img class="count-body__img" src="./image/telegram.png" alt="this telegram img">
+            <img class="count-body__img" src="./image/watstup.png" alt="this watsup img">
+          </div>
+          <input class="form-control count-body__input" type="text" placeholder="Введите ваш телефон">
+          <button class="count-body__button" type="submit">Получить расчёт и бонусы</button>
+          <div class="d-flex align-items-center text-start gap-3 mt-3 justify-content-center">
+            <input class="form-check-input" id="checked" type="checkbox">
+            <label for="checked">Нажимая на кнопку вы соглашаетесь <br>
+              с условиями <span class="text-border">Политики конфиденциальности</span>
+            </label>
+          </div>
+        </div>
+        <div class="count-body__position d-none d-md-flex">
+          <div>
+            <h3 class="color-blue fs-5">Ваши бонусы:</h3>
+            <p class="color-second fs-6 m-0"> <span class="dot me-1"></span> Скидка 10% на первый заказ <br>
+              <span class="dot me-1"></span> Книга «Магическая уборка»
+            </p>
+            <p class="fs-12 color-light-second ms-2">(в бумажном переплёте)</p>
+          </div>
+          <div class="parent-position">
+            <img class="img-one" src="./image/Книжка3 2.png" alt="this img">
+            <img class="img-two" src="./image/Купон.png" alt="this img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /count -->
+  <!-- product -->
+  <section class="product mt-5">
+    <center>
+      <button class="border-0 bg-second px-5 py-3 rounded-5 text-light mb-2">А вы знали?</button>
+      <h1 class="color-second fs-2">70% клининговых компаний в СПБ, зачастую <b>подвергают <br>
+          своих клиентов рискам и дискомфорту.</b></h1>
+      <p class="color-light-second fs-5">И вот некоторые факты, с которыми вы можете столкнуться, <br>
+        обращаясь в другие компании:
+      </p>
+    </center>
+    <div class="container">
+      <div class="product-head">
+        <div class="row gap-4 flex-wrap mt-5">
+          <div class="column bg-light shadow">
+            <div class="col-images">
+              <img class=" col-images__one" src="./image/calc.png" alt="this calc img">
+              <img class="col-images__two" src="./image/chek.png" alt="this check img">
+              <img class="col-images__three" src="./image/chek.png" alt="this calc img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Чёрная касса</h5>
+              <p class="fs-14">Клининговые компании завлекают
+                клиентов обманчиво низкой стоимостью.
+                Менеджеры умалчивают стоимость
+                доп. работ, а на объекте, когда клиенту
+                сложно отказать, насчитывают
+                стоимость выше заявленной.</p>
+            </div>
+          </div>
+          <div class="column bg-light shadow">
+            <div class="col-images">
+              <img class="col-images__one" src="./image/skovoroda 1.png" alt="this skovoroda img">
+              <img class="col-images__komet" src="./image/Комет 1.png" alt="this img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Порча имущества</h5>
+              <p class="fs-14">Неправильно подобранные клинерами
+                моющие средства могут повредить
+                поверхность мебели и бытовых приборов. Неправильная влажная уборка может испортить новый паркет или
+                повредить проводку.</p>
+            </div>
+          </div>
+          <div class="column bg-light shadow">
+            <div class="col-images">
+              <img class=" col-images__supurgi" src="./image/Веник 1.png" alt="this img">
+              <img class=" col-images__axlat" src="./image/axlat.png" alt="this img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Чёрная касса</h5>
+              <p class="fs-14">Клинеры часто выполняют свою
+                работу недобросовестно. Не убирают
+                труднодоступные места и экономят
+                моющее средство. В результате Вы
+                получаете некачественную уборку
+                и испорченное настроение.</p>
+            </div>
+          </div>
+          <div class="column-one d-flex bg-light shadow flex-column flex-md-row">
+            <div class="col-images">
+              <img class=" col-images__vnimania" src="./image/Внимание 1.png" alt="this img">
+              <img class=" col-images__time" src="./image/Часы 1.png" alt="this img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Безответственность персонала</h5>
+              <p class="fs-14">Клинеры приезжают раньше/позже назначенного времени,
+                что доставляет дискомфорт хозяину. Не соблюдают инструктаж
+                владельца квартиры и нарушают бытовой порядок.
+              </p>
+            </div>
+          </div>
+          <div class="column-two bg-blue shadow">
+            <div class="col-text text-light p-2">
+              <h5 class="fw-bold fs-6">Друзья, Будьте внимательны!</h5>
+              <p class="fs-12">При выборе клинговой компании и заказе <br>
+                уборки, внимательно читайте договор <br>
+                на оказание услуг
+              </p>
+              <a class="text-light fs-12 text-decoration-underline" href="#">Посмотреть договор</a>
+            </div>
+          </div>
+        </div>
+        <center class="mt-5">
+          <h1 class="color-second fs-2">Наша работа построена <br>
+            <b>на профессионализме и честности</b>
+          </h1>
+          <button class="border-0 bg-second px-5 py-3 rounded-5 fw-bold text-light mb-2">Обращаясь за помощью к нам, вы
+            можете
+            быть <br>
+            спокойны за качество и ваш комфорт</button>
+        </center>
+        <div class="row gap-4 flex-wrap mt-5">
+          <div class="column bg-light shadow">
+            <div class="col-images">
+              <img class=" col-images__check" src="./image/cheked.png" alt="this calc img">
+              <img class="col-images__list" src="./image/list.png" alt="this check img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Честное сотрудничество</h5>
+              <p class="fs-14">Заранее рассчитаем стоимость услуг,
+                и закрепляем наше сотрудничество
+                договором. Оплата исключительно
+                по факту выполнения. Вы проверяете
+                результат и платите тогда, когда он
+                вас удовлетворяет.</p>
+            </div>
+          </div>
+          <div class="column bg-light shadow">
+            <div class="col-images">
+              <img class="col-images__butulka1" src="./image/butulka1.png" alt="this skovoroda img">
+              <img class="col-images__butulka2" src="./image/butulka2.png" alt="this img">
+              <img class="col-images__butulka3" src="./image/bugdoy2.png" alt="this img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Бережные моющие</h5>
+              <p class="fs-14">Внимательно подходим к выбору
+                моющих средств. Знаем какие средства использовать в конкретных случаях, чтобы
+                не повредить мебель и сохранить
+                прежний блеск поверхностей.</p>
+            </div>
+          </div>
+          <div class="column bg-light shadow">
+            <div class="col-images">
+              <img class=" col-images__wit" src="./image/Щит 1.png" alt="this img">
+            </div>
+            <div class="col-text color-second">
+              <h5 class="fw-bold">Гарантия качества</h5>
+              <p class="fs-14">На объектах работают от 2 и более опытных клинеров. Комплексная уборка делается в
+                соответствии с нормами
+                качества. Блеск от потолка до пола!</p>
+            </div>
+          </div>
+          <div class="product-head__free bg-blue d-flex">
+            <div class="text-light free-index">
+              <h4 class="fs-5">Оставьте заявку на консультацию и <br> расчёт стоимости БЕСПЛАТНО</h4>
+              <div class="d-flex flex-column flex-md-row gap-2">
+                <input class="free-input py-3 ps-4 pe-4  rounded-5 border-0 bg-light" type="text"
+                  placeholder="Введите ваш телефон">
+                <button class="free-button rounded-5 border-0">Жду звонка</button>
+              </div>
+              <div class="d-flex align-items-center text-start gap-1 mt-3">
+                <input class="form-check-input" id="checkedTwo" type="checkbox">
+                <label class="fs-12" for="checkedTwo">Нажимая на кнопку вы соглашаетесь
+                  с условиями <span class="text-border">Политики конфиденциальности</span>
+                </label>
+              </div>
+            </div>
+            <img class="devoshka-img" src="./image/devoshka.png" alt="this devowka">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /product -->
+  <!-- cleaning -->
+  <section class="cleaning mt-5">
+    <center class="color-second">
+      <h3 class="fw-bold"><span class="color-blue">6 видов уборки</span> под любую Вашу задачу</h3>
+      <p class="fs-5 color-light-second">Наши услуги подойдут для семейных пар с детьми, <br>
+        владельцев животных, аллергиков, арендодателей
+      </p>
+    </center>
+    <div class="container d-flex flex-wrap gap-2">
+      <div class="cleaning-body shadow text-center">
+        <img class="cleaning-body__img" src="./image/Mask Group (1).png" alt="this img">
+        <h4 class="cleaning-body__title fw-bold color-second">Гнеральная уборка</h4>
+        <p class="color-second">Комплексная уборка с удалением <br>
+          пыли, жира и грязи</p>
+        <p class="color-light-second"><span class="color-blue">Время работы:</span> 5-7 часов</p>
+        <button class="cleaning-body__btn1">
+          <a href="#">от 150 ₽/м²</a>
+        </button><br>
+        <button class="cleaning-body__btn2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button><br>
+        <a href="#">Подробнее</a>
+      </div>
+      <div class="cleaning-body shadow text-center">
+        <img class="cleaning-body__img" src="./image/Mask Group (1).png" alt="this img">
+        <h4 class="cleaning-body__title fw-bold color-second">Гнеральная уборка</h4>
+        <p class="color-second">Комплексная уборка с удалением <br>
+          пыли, жира и грязи</p>
+        <p class="color-light-second"><span class="color-blue">Время работы:</span> 5-7 часов</p>
+        <button class="cleaning-body__btn1">
+          <a href="#">от 150 ₽/м²</a>
+        </button><br>
+        <button class="cleaning-body__btn2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button><br>
+        <a href="#">Подробнее</a>
+      </div>
+      <div class="cleaning-body shadow text-center">
+        <img class="cleaning-body__img" src="./image/Mask Group (1).png" alt="this img">
+        <h4 class="cleaning-body__title fw-bold color-second">Гнеральная уборка</h4>
+        <p class="color-second">Комплексная уборка с удалением <br>
+          пыли, жира и грязи</p>
+        <p class="color-light-second"><span class="color-blue">Время работы:</span> 5-7 часов</p>
+        <button class="cleaning-body__btn1">
+          <a href="#">от 150 ₽/м²</a>
+        </button><br>
+        <button class="cleaning-body__btn2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button><br>
+        <a href="#">Подробнее</a>
+      </div>
+      <div class="cleaning-body shadow text-center">
+        <img class="cleaning-body__img" src="./image/Mask Group (1).png" alt="this img">
+        <h4 class="cleaning-body__title fw-bold color-second">Гнеральная уборка</h4>
+        <p class="color-second">Комплексная уборка с удалением <br>
+          пыли, жира и грязи</p>
+        <p class="color-light-second"><span class="color-blue">Время работы:</span> 5-7 часов</p>
+        <button class="cleaning-body__btn1">
+          <a href="#">от 150 ₽/м²</a>
+        </button><br>
+        <button class="cleaning-body__btn2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button><br>
+        <a href="#">Подробнее</a>
+      </div>
+      <div class="cleaning-body shadow text-center">
+        <img class="cleaning-body__img" src="./image/Mask Group (1).png" alt="this img">
+        <h4 class="cleaning-body__title fw-bold color-second">Гнеральная уборка</h4>
+        <p class="color-second">Комплексная уборка с удалением <br>
+          пыли, жира и грязи</p>
+        <p class="color-light-second"><span class="color-blue">Время работы:</span> 5-7 часов</p>
+        <button class="cleaning-body__btn1">
+          <a href="#">от 150 ₽/м²</a>
+        </button><br>
+        <button class="cleaning-body__btn2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button><br>
+        <a href="#">Подробнее</a>
+      </div>
+      <div class="cleaning-body shadow text-center">
+        <img class="cleaning-body__img" src="./image/Mask Group (1).png" alt="this img">
+        <h4 class="cleaning-body__title fw-bold color-second">Гнеральная уборка</h4>
+        <p class="color-second">Комплексная уборка с удалением <br>
+          пыли, жира и грязи</p>
+        <p class="color-light-second"><span class="color-blue">Время работы:</span> 5-7 часов</p>
+        <button class="cleaning-body__btn1">
+          <a href="#">от 150 ₽/м²</a>
+        </button><br>
+        <button class="cleaning-body__btn2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button><br>
+        <a href="#">Подробнее</a>
+      </div>
+    </div>
+  </section>
+  <!-- /cleaning -->
+  <!-- choose -->
+  <section class="choose mt-5">
+    <center>
+      <button class="bg-second text-light border-0 px-4 py-2 rounded-5 mb-2">Не нашли нужный вариант?</button>
+      <h3 class="color-second fw-bold">Посмотрите дополнительные услуги</h3>
+      <p class="color-light-second">Устраним любой каприз в уборке</p>
+    </center>
+    <div class="container d-flex gap-3 flex-wrap justify-content-center">
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+      <div class="choose-clean d-flex align-items-center gap-4 py-5 px-4 rounded-5 shadow-lg">
+        <div class="choose-clean__img">
+          <img src="./image/Mask Group (6).png" alt="this rounded img">
+        </div>
+        <div class="choose-clean__about">
+          <p class="color-second m-0">Мойка холодильника</p>
+          <p class="color-blue fw-bold"><span class="horizontal"></span>600 ₽</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4 px-5 py-4 py-lg-0 d-flex align-items-center shadow-lg gap-5 rounded-4">
+      <div class="choose-deliver">
+        <h3 class="fs-4">Закажите 3 дополнительные услуги <br><span class="color-blue">и получите четвёртую в
+            подарок</span></h3>
+        <button class="border-0 bg-blue px-5 py-3 rounded-5 shadow-lg mt-2">
+          <a class="text-light" href="#">Рассчитать стоимость</a>
+        </button>
+      </div>
+      <div class="choose-img d-none d-lg-block">
+        <img class="img-fluid" src="./image/barglar.png" alt="this barg img">
+      </div>
+    </div>
+  </section>
+  <!-- /choose -->
+  <!-- price -->
+  <section class="price mt-5">
+    <div class="container">
+      <div class="product-head__free bg-blue d-flex">
+        <div class="text-light free-index">
+          <h4 class="fs-5"><b>
+              Хотите приценится? <br>
+              Получите актуальный прайс-лист
+            </b> <br>
+            услуг всего в 1 клик</h4>
+          <p class="fs-12 mt-4">
+            — Где вам удобнее получить?
+          </p>
+          <div class="free-index__btns">
+            <img class="free-index__btn" src="./image/telegram.png" alt="this telegram icon">
+            <img class="free-index__btn" src="./image/watstup.png" alt="this watstup icon">
+            <input class="free-index__input" type="text" placeholder="Введите ваш телефон">
+            <button class="free-index__button">Получить прайс</button>
+          </div>
+          <div class="d-flex align-items-center text-start gap-1 mt-3">
+            <input class="form-check-input" id="checkedTwo" type="checkbox">
+            <label class="fs-12" for="checkedTwo">Нажимая на кнопку вы соглашаетесь
+              с условиями <span class="text-border">Политики конфиденциальности</span>
+            </label>
+          </div>
+        </div>
+        <img class="devoshka-img" src="./image/devoshka.png" alt="this devowka">
+      </div>
+    </div>
+  </section>
+  <!-- price -->
+
+
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,21 @@
+@use "../abstract/mixins" as mix;
+.button-second {
+  @include mix.colors(white, #ffc24d);
+  border-radius: 100px;
+  border: none;
+  padding: 1rem 1.8rem;
+}
+.button-blue {
+  @include mix.colors(white, #43aaff);
+  border-radius: 100px;
+  border: none;
+  padding: 1rem 1.8rem;
+}
+
+.circle {
+  border: 5px solid #43AAFF;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+}

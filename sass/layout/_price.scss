@@ -1,0 +1,11 @@
+@use "../abstract/mixins" as mix;
+.price {
+  &-head__free {
+    .free-index {
+      &__btns {
+        width: 280px;
+        background-color: red;
+      }
+    }
+  }
+}
